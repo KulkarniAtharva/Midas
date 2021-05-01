@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        app:showAsAction="ifRoom"
+        android:title="होम" />
+
+    <item
+        android:id="@+id/pani_budget"
+        android:icon="@drawable/drop"
+        android:title="पाणी बजेट" />
+
+    <item
+        android:id="@+id/niyojan"
+        android:icon="@drawable/planning"
+        app:showAsAction="ifRoom"
+        android:title="नियोजन" />
+
+    <item
+        android:id="@+id/suchna"
+        android:icon="@drawable/notification"
+        app:showAsAction="ifRoom"
+        android:title="सूचना" />
+</menu>

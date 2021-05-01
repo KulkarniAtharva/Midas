@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/profile"
+            android:title="Profile"
+            android:icon="@drawable/home"/>
+        <item
+            android:id="@+id/faqs"
+            android:title="FAQ's"
+            android:icon="@drawable/home"/>
+
+        <item
+            android:id="@+id/contactus"
+            android:title="Contact us"
+            android:icon="@drawable/home"/>
+        <item
+            android:id="@+id/feedback"
+            android:title="Feedback"
+            android:icon="@drawable/home"/>
+
+        <item
+            android:id="@+id/language"
+            android:title="Language"
+            android:icon="@drawable/home"/>
+
+    </group>
+
+
+
+</menu>

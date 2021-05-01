@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dev.atharvakulkarni.midas">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".login">
+
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".paus"/>
+        <activity android:name=".gharguti_vapar"/>
+        <activity android:name=".pani_satha"/>
+        <activity android:name=".pikanchi_garaj.pikanchi_garaj"/>
+        <activity android:name=".panisatha.jalsandharan"/>
+        <activity android:name=".panisatha.prushtabhagavaril"/>
+        <activity android:name=".panisatha.cct"/>
+        <activity android:name=".panisatha.cement_nala_band"/>
+        <activity android:name=".panisatha.sarv_gav_talav"/>
+        <activity android:name=".panisatha.dharan"/>
+        <activity android:name=".panisatha.k_t_wiers"/>
+        <activity android:name=".panisatha.plastic_gavtale"/>
+        <activity android:name=".pikanchi_garaj.kharip"/>
+        <activity android:name=".pikanchi_garaj.varshik_kharip"/>
+        <activity android:name=".pikanchi_garaj.rabbi"/>
+        <activity android:name=".ghetle_janare_pik"/>
+        <activity android:name=".apekshit_sudharna"/>
+        <activity android:name=".purna"/>
+        <activity android:name=".panisatha.bin_plastic_gavtale"/>
+        <activity android:name=".panisatha.matiche_nala_band"/>
+    </application>
+
+</manifest>

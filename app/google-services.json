@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "921192671840",
+    "firebase_url": "https://midas-6440b.firebaseio.com",
+    "project_id": "midas-6440b",
+    "storage_bucket": "midas-6440b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921192671840:android:c96beb1b9e2b2ce40df105",
+        "android_client_info": {
+          "package_name": "dev.atharvakulkarni.midas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "921192671840-amco49p8v8ffum6uesn6npmrb8mmgec6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0gDo0zvGzMPbi3G4lvqsGiitVqQC31lI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "921192671840-amco49p8v8ffum6uesn6npmrb8mmgec6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

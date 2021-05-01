@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#ED6F58</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="limegreen">#32CD32</color>
+    <color name="blueviolet">#8A2BE2</color>
+    <color name="deepskyblue">#00BFFF</color>
+    <color name="blue2">#1976D3</color>
+    <color name="darkblue">#1564C0</color>
+    <color name="lightblue1">#BFEFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="orange">#ED6F58</color>
+    <color name="blue">#37C5AD</color>
+
+    <color name="color1">#16477F</color>
+    <color name="color2">#6FCDA8</color>
+    <color name="color3">#FEC02F</color>
+    <color name="color4">#B54BD3</color>
+
+    <color name="color5">#ED1B37</color>
+    <color name="color6">#119CAE</color>
+    <color name="color7">#50B432</color>
+
+    <color name="color8">#FFF263</color>
+    <color name="color9">#FF9655</color>
+    <color name="color10">#DDDF00</color>
+    <color name="color11">#ED561B</color>
+    <color name="color12">#64E572</color>
+
+    <color name="color13">#D26BA2</color>
+    <color name="color14">#696969</color>
+    <color name="pink">#FFE9E9</color>
+
+</resources>
