@@ -26,10 +26,6 @@ import dev.atharvakulkarni.midas.databinding.PrushtabhagavarilBinding;
 public class prushtabhagavaril extends AppCompatActivity
 {
     PrushtabhagavarilBinding prushtabhagavarilBinding;
-    CardView cardView2,cardView3,cardView4,cardView5;
-    FirebaseFirestore db;
-    TextView total;
-    ImageButton back;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState)
@@ -39,90 +35,27 @@ public class prushtabhagavaril extends AppCompatActivity
 
         getWindow().setStatusBarColor(getResources().getColor(R.color.white,getTheme()));
 
-        cardView2 = prushtabhagavarilBinding.cardview2;
-        cardView3 = prushtabhagavarilBinding.cardview3;
-        cardView4 = prushtabhagavarilBinding.cardview4;
-        cardView5 = prushtabhagavarilBinding.cardview5;
-
-        cardView2.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View view)
-            {
-                Intent intent = new Intent(prushtabhagavaril.this, dharan.class);
-                startActivity(intent);
-               // Toast.makeText(prushtabhagavaril.this, "Not Present", Toast.LENGTH_SHORT).show();
-            }
+        prushtabhagavarilBinding.cardview2.setOnClickListener(view -> {
+            Intent intent = new Intent(prushtabhagavaril.this, dharan.class);
+            startActivity(intent);
         });
 
-        cardView3.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View view)
-            {
-                Intent intent = new Intent(prushtabhagavaril.this, k_t_wiers.class);
-                startActivity(intent);
-               // Toast.makeText(prushtabhagavaril.this, "Not Present", Toast.LENGTH_SHORT).show();
-            }
+        prushtabhagavarilBinding.cardview2.setOnClickListener(view -> {
+            Intent intent = new Intent(prushtabhagavaril.this, k_t_wiers.class);
+            startActivity(intent);
         });
 
-        cardView4.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View view)
-            {
-                Intent intent = new Intent(prushtabhagavaril.this, plastic_gavtale.class);
-                startActivity(intent);
-            }
+        prushtabhagavarilBinding.cardview4.setOnClickListener(view -> {
+            Intent intent = new Intent(prushtabhagavaril.this, plastic_gavtale.class);
+            startActivity(intent);
         });
 
-        cardView5.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View view)
-            {
-                Intent intent = new Intent(prushtabhagavaril.this, bin_plastic_gavtale.class);
-                startActivity(intent);
-                //Toast.makeText(prushtabhagavaril.this, "Not Present", Toast.LENGTH_SHORT).show();
-            }
+        prushtabhagavarilBinding.cardview5.setOnClickListener(view -> {
+            Intent intent = new Intent(prushtabhagavaril.this, bin_plastic_gavtale.class);
+            startActivity(intent);
+            //Toast.makeText(prushtabhagavaril.this, "Not Present", Toast.LENGTH_SHORT).show();
         });
 
-        back = prushtabhagavarilBinding.back;
-
-        back.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View view)
-            {
-                finish();
-            }
-        });
-
-        db = FirebaseFirestore.getInstance();
-
-        DocumentReference docRef = db.collection(UserModel.getVillage()).document("pani_budget").collection("pani_satha").document("pani_satha").
-                collection("prushthabhagavaril").document("prushthabhagavaril");
-        docRef.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>()
-        {
-            @Override
-            public void onComplete(@NonNull Task<DocumentSnapshot> task)
-            {
-                if (task.isSuccessful())
-                {
-                    DocumentSnapshot document = task.getResult();
-                    //if (document.exists())
-                    //{
-                    Log.d("TAG", "DocumentSnapshot data: " + document.getData());
-
-                    // map.putAll(Objects.requireNonNull(document.getData()));
-
-                   // total.setText(document.getString("total"));
-                }
-                else
-                {
-                    Log.d("TAG", "get failed with ", task.getException());
-                }
-            }
-        });
+        prushtabhagavarilBinding.back.setOnClickListener(view -> finish());
     }
 }

@@ -5,7 +5,7 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:fontFamily">@font/calibri</item>
+        <item name="android:fontFamily">@font/segoe_ui</item>
         <!--<item name="android:editTextColor">@android:color/white</item>-->
     </style>
 
@@ -16,7 +16,6 @@
 
     <!-- Bottom Navigation -->
     <style name="Widget.BottomNavigationView" parent="Widget.Design.BottomNavigationView">
-
         <item name="android:textSize">9sp</item>
         <item name="android:textStyle">bold</item>
     </style>

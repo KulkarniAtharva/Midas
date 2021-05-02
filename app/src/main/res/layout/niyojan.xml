@@ -74,19 +74,19 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical"
-            android:background="@drawable/curve2"
+            android:background="@drawable/cardview_rounded"
             android:layout_marginTop="400dp">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="My Plan"
+                android:text="आपले नियोजन"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:gravity="center"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="30dp"
                 android:textSize="20dp"/>
 
         <androidx.cardview.widget.CardView
@@ -113,7 +113,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="घेतले जाणारे पिक"
+                    android:text="अपेक्षित सुधारणा"
                     android:textColor="@color/black"
                     android:layout_weight="1"
                     android:textStyle="bold"
@@ -153,7 +153,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="अपेक्षित सुधारणा"
+                    android:text="सारांश"
                     android:textColor="@color/black"
                     android:layout_weight="1"
                     android:textStyle="bold"

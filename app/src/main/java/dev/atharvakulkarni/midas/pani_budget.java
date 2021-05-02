@@ -32,14 +32,11 @@ import dev.atharvakulkarni.midas.pikanchi_garaj.pikanchi_garaj;
 public class pani_budget extends Fragment
 {
     PaniBudgetBinding paniBudgetBinding;
-    TextView title;
     GridLayout gridLayout;
-    FirebaseFirestore db;
     TextView pausamule_uplabdh, ekun_vaparlel, ekun_rabbi, paus, pani_satha, gharguti_vapar, pikanchi_garaj;
     ImageButton hamburger;
 
     HamburgerDrawer hamburgerDrawer;
-
 
     public pani_budget(HamburgerDrawer hdrawer)
     {
@@ -66,39 +63,6 @@ public class pani_budget extends Fragment
         hamburger = paniBudgetBinding.hamburgerPb;
 
         setSingleEvent(gridLayout);
-
-        db = FirebaseFirestore.getInstance();
-
-        DocumentReference docRef = db.collection(UserModel.getVillage()).document("pani_budget");
-        docRef.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>()
-        {
-            @Override
-            public void onComplete(@NonNull Task<DocumentSnapshot> task)
-            {
-                if (task.isSuccessful())
-                {
-                    DocumentSnapshot document = task.getResult();
-                    //if (document.exists())
-                    //{
-                    Log.d("TAG", "DocumentSnapshot data: " + document.getData());
-
-                    // map.putAll(Objects.requireNonNull(document.getData()));
-
-                    pausamule_uplabdh.setText(document.getString("pausamule_uplabdh"));
-                    ekun_vaparlel.setText(document.getString("ekun_vaparlel_pani"));
-                    ekun_rabbi.setText(document.getString("ekun_rabbi"));
-                    paus.setText(document.getString("paus"));
-                    pani_satha.setText(document.getString("pani_satha"));
-                    gharguti_vapar.setText(document.getString("gharguti_vapar"));
-                    pikanchi_garaj.setText(document.getString("pikanchi_garaj"));
-                    //ekun_shillak.setText(document.getString("एकूण_शिल्लक_पाणी"));
-                }
-                else
-                {
-                    Log.d("TAG", "get failed with ", task.getException());
-                }
-            }
-        });
 
         hamburger.setOnClickListener(view1 -> {
             hamburgerDrawer.onHamburgerClick();

@@ -29,7 +29,6 @@ public class k_t_wiers extends AppCompatActivity
     private float[] yData = {67.5f, 28.6f, 3.9f};
     private String[] xData = {"Mitch", "Jessica" , "Mohammad"};
     private static String TAG = "MainActivity";
-    ImageButton back;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState)
@@ -54,16 +53,7 @@ public class k_t_wiers extends AppCompatActivity
         pieChart.setCenterTextSize(15);
         pieChart.setHoleColor(getResources().getColor(R.color.pink,getTheme()));
 
-        back = ktWiersBinding.back;
-
-        back.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View view)
-            {
-                finish();
-            }
-        });
+        ktWiersBinding.back.setOnClickListener(view -> finish());
 
         // pieChart.setDrawEntryLabels(true);
         //pieChart.setEntryLabelTextSize(20);

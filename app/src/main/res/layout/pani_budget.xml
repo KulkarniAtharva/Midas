@@ -4,464 +4,478 @@
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#FFE9E9">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:tag="layout/pani_budget_0"
+    android:background="#ffffe9e9"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
             android:orientation="vertical"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:gravity="center">
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-         <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="21dp"
                 android:gravity="center"
-                android:paddingStart="21dp"
-                android:paddingEnd="21dp">
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="21.0dip"
+                android:paddingStart="21.0dip"
+                android:paddingEnd="21.0dip">
 
                 <ImageButton
                     android:id="@+id/hamburger_pb"
-                    android:layout_width="20dp"
-                    android:layout_height="20dp"
-                    android:src="@drawable/hamburger"
                     android:background="@null"
-                    android:scaleType="fitXY"
-                    android:foreground="?attr/selectableItemBackgroundBorderless"/>
+                    android:layout_width="20.0dip"
+                    android:layout_height="20.0dip"
+                    android:foreground="?selectableItemBackgroundBorderless"
+                    android:src="@drawable/hamburger"
+                    android:scaleType="fitXY" />
 
                 <TextView
-                    android:id="@+id/title"
+                    android:textSize="30.0dip"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:id="@id/title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="पाणी बजेट"
-                    android:gravity="center"
-                    android:textColor="@color/black"
-                    android:textSize="30dp"
-                    android:textStyle="bold"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1.0" />
 
-         </LinearLayout>
+            </LinearLayout>
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:layout_marginTop="46dp"
-                android:layout_marginStart="21dp"
-                android:layout_marginEnd="21dp">
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="46.0dip"
+                android:layout_marginStart="21.0dip"
+                android:layout_marginEnd="21.0dip">
 
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:paddingBottom="1.0dip"
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content">
 
                     <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:text="पाऊसामुळे उपलब्ध पाणी:"
-                        android:textSize="15dp"
+                        android:textSize="15.0dip"
                         android:textStyle="bold"
                         android:textColor="@color/black"
-                        android:layout_weight="1"/>
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:text="पाऊसामुळे उपलब्ध पाणी:"
+                        android:layout_weight="1.0" />
 
                     <TextView
+                        android:textSize="15.0dip"
+                        android:textColor="@color/black"
                         android:id="@+id/pausamuleuplabdh"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="5dp"
-                        android:textSize="15dp"
-                        android:textColor="@color/black"/>
+                        android:text="६५८.८"
+                        android:layout_marginStart="5.0dip" />
 
                     <TextView
+                        android:textSize="15.0dip"
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="कोटी लिटर"
-                        android:layout_marginStart="5dp"
-                        android:textSize="15dp"
-                        android:textColor="@color/black"/>
+                        android:layout_marginStart="5.0dip" />
 
                 </LinearLayout>
-
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:paddingBottom="1.0dip"
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp">
+                    android:layout_marginTop="7.0dip">
 
                     <TextView
+                        android:textSize="15.0dip"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="एकूण वापरलेल पाणी:"
-                        android:textSize="15dp"
-                        android:textStyle="bold"
-                        android:textColor="@color/black"
-                        android:layout_weight="1"/>
+                        android:layout_weight="1.0" />
 
                     <TextView
+                        android:textSize="15.0dip"
+                        android:textColor="@color/black"
                         android:id="@+id/ekunvaparlel"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="5dp"
-                        android:textSize="15dp"
-                        android:textColor="@color/black"/>
+                        android:text="१८६.३"
+                        android:layout_marginStart="5.0dip" />
 
                     <TextView
+                        android:textSize="15.0dip"
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="कोटी लिटर"
-                        android:layout_marginStart="5dp"
-                        android:textSize="15dp"
-                        android:textColor="@color/black"/>
+                        android:layout_marginStart="5.0dip" />
 
                 </LinearLayout>
-
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:paddingBottom="1.0dip"
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp">
+                    android:layout_marginTop="7.0dip">
 
                     <TextView
+                        android:textSize="15.0dip"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="एकूण रब्बी साठी उपलब्ध पाणी:"
-                        android:textSize="15dp"
-                        android:textStyle="bold"
-                        android:textColor="@color/black"
-                        android:layout_weight="1"/>
+                        android:layout_weight="1.0" />
 
                     <TextView
+                        android:textSize="15.0dip"
+                        android:textColor="@color/black"
                         android:id="@+id/ekun_rabbi"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="5dp"
-                        android:textSize="15dp"
-                        android:textColor="@color/black"/>
+                        android:text="४७२.५"
+                        android:layout_marginStart="5.0dip" />
 
                     <TextView
+                        android:textSize="15.0dip"
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="कोटी लिटर"
-                        android:layout_marginStart="5dp"
-                        android:textSize="15dp"
-                        android:textColor="@color/black"/>
+                        android:layout_marginStart="5.0dip" />
 
                 </LinearLayout>
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:paddingBottom="1.0dip"
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp">
+                    android:layout_marginTop="7.0dip">
 
                     <TextView
+                        android:textSize="15.0dip"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="क्षेत्रातील भूजल साठा:"
-                        android:textSize="15dp"
-                        android:textStyle="bold"
-                        android:textColor="@color/black"
-                        android:layout_weight="1"/>
+                        android:layout_weight="1.0" />
 
                     <TextView
+                        android:textSize="15.0dip"
+                        android:textColor="@color/black"
                         android:id="@+id/ekun_rabb"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="5dp"
-                        android:textSize="15dp"
-                        android:textColor="@color/black"/>
+                        android:text="१८०.६"
+                        android:layout_marginStart="5.0dip" />
 
                     <TextView
+                        android:textSize="15.0dip"
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="कोटी लिटर"
-                        android:layout_marginStart="5dp"
-                        android:textSize="15dp"
-                        android:textColor="@color/black"/>
+                        android:layout_marginStart="5.0dip" />
 
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:paddingBottom="1.0dip"
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp">
+                    android:layout_marginTop="7.0dip">
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="कालव्याचे पाणी:"
-                        android:textSize="15dp"
+                        android:textSize="15.0dip"
                         android:textStyle="bold"
                         android:textColor="@color/black"
-                        android:layout_weight="1"/>
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="भूजल विकासाचा टप्पा:"
+                        android:layout_weight="1.0" />
 
                     <TextView
+                        android:textSize="15.0dip"
+                        android:textColor="@color/black"
                         android:id="@+id/ekun_rab"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="5dp"
-                        android:textSize="15dp"
-                        android:textColor="@color/black"/>
-
+                        android:text="९४.९६"
+                        android:layout_marginStart="5.0dip" />
                     <TextView
+                        android:textSize="15.0dip"
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="कोटी लिटर"
-                        android:layout_marginStart="5dp"
-                        android:textSize="15dp"
-                        android:textColor="@color/black"/>
-
+                        android:text="%"
+                        android:layout_marginStart="5.0dip" />
                 </LinearLayout>
             </LinearLayout>
-            </LinearLayout>
+        </LinearLayout>
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:background="@drawable/curve"
-            android:layout_marginTop="15dp">
+            android:background="@drawable/cardview_rounded"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="30.0dip">
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="पाणी बजेट माहिती"
+                android:textSize="20.0dip"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:gravity="center"
-                android:layout_marginTop="60dp"
-                android:textSize="20dp"/>
-
-        <GridLayout
-            android:id="@+id/grid"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:rowCount="2"
-            android:columnCount="2"
-            android:layout_marginTop="20dp"
-            android:layout_gravity="center"
-            android:layout_marginStart="11dp"
-            android:layout_marginEnd="11dp">
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="wrap_content"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                app:cardCornerRadius="10dp"
-                android:layout_margin="10dp"
-                android:foreground="?attr/selectableItemBackgroundBorderless">
+                android:layout_marginTop="30.0dip"
+                android:text="पाणी बजेट माहिती" />
 
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:paddingTop="17dp"
-                    android:paddingBottom="17dp"
-                    android:paddingStart="35dp"
-                    android:paddingEnd="35dp"
-                    android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="66dp"
-                    android:layout_height="66dp"
-                    android:src="@drawable/cloud"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="पाऊस"
-                    android:textColor="@color/black"
-                    android:textSize="15dp"
-                    android:layout_marginTop="10dp"/>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <TextView
-                        android:id="@+id/paus"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/black"
-                        android:textSize="15dp"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text=" मि.मि."
-                        android:textColor="@color/black"
-                        android:textSize="15dp"/>
-
-                </LinearLayout>
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
+            <GridLayout
+                android:layout_gravity="center"
+                android:id="@id/grid"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:cardCornerRadius="10dp"
-                android:layout_margin="10dp"
-                android:layout_marginStart="13dp"
-                android:foreground="?attr/selectableItemBackgroundBorderless">
+                android:layout_height="fill_parent"
+                android:layout_marginTop="20.0dip"
+                android:rowCount="2"
+                android:columnCount="2"
+                android:layout_marginStart="11.0dip"
+                android:layout_marginEnd="11.0dip">
 
-                <LinearLayout
-                    android:layout_width="wrap_content"
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/paus_cardview"
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:paddingTop="17dp"
-                    android:paddingBottom="17dp"
-                    android:paddingStart="30dp"
-                    android:paddingEnd="30dp"
-                    android:orientation="vertical">
+                    android:layout_margin="10.0dip"
+                    android:foreground="?selectableItemBackgroundBorderless"
+                    app:cardCornerRadius="10.0dip">
 
-                    <ImageView
-                        android:layout_width="66dp"
-                        android:layout_height="66dp"
-                        android:src="@drawable/well"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="पाणी साठा"
-                    android:textColor="@color/black"
-                    android:textSize="15dp"
-                    android:layout_marginTop="10dp"/>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <TextView
-                        android:id="@+id/pani_satha"
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingTop="17.0dip"
+                        android:paddingBottom="17.0dip"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/black"
-                        android:textSize="15dp"/>
+                        android:paddingStart="35.0dip"
+                        android:paddingEnd="35.0dip">
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text=" कोटी लिटर"
-                        android:textColor="@color/black"
-                        android:textSize="15dp"/>
+                        <ImageView
+                            android:layout_width="66.0dip"
+                            android:layout_height="66.0dip"
+                            android:src="@drawable/cloud" />
 
-                </LinearLayout>
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
+                        <TextView
+                            android:textSize="15.0dip"
+                            android:textColor="@color/black"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10.0dip"
+                            android:text="पाऊस" />
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:cardCornerRadius="10dp"
-                android:layout_margin="10dp"
-                android:foreground="?attr/selectableItemBackgroundBorderless">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
 
-                <LinearLayout
+                            <TextView
+                                android:textSize="15.0dip"
+                                android:textColor="@color/black"
+                                android:id="@+id/paus"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="६१०" />
+
+                            <TextView
+                                android:textSize="15.0dip"
+                                android:textColor="@color/black"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" मि.मि." />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/pani_satha_cardview"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:paddingTop="17dp"
-                    android:paddingBottom="17dp"
-                    android:paddingStart="20dp"
-                    android:paddingEnd="20dp"
-                    android:orientation="vertical">
+                    android:layout_margin="10.0dip"
+                    android:foreground="?selectableItemBackgroundBorderless"
+                    android:layout_marginStart="13.0dip"
+                    app:cardCornerRadius="10.0dip">
 
-                    <ImageView
-                        android:layout_width="66dp"
-                        android:layout_height="66dp"
-                        android:src="@drawable/tap"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="घरगुती वापर"
-                    android:textColor="@color/black"
-                    android:textSize="15dp"
-                    android:layout_marginTop="10dp"/>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center">
-
-                    <TextView
-                        android:id="@+id/gharguti_vapar"
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingTop="17.0dip"
+                        android:paddingBottom="17.0dip"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/black"
-                        android:textSize="15dp"/>
+                        android:paddingStart="30.0dip"
+                        android:paddingEnd="30.0dip">
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text=" कोटी लिटर"
-                        android:textColor="@color/black"
-                        android:textSize="15dp"/>
+                        <ImageView
+                            android:layout_width="66.0dip"
+                            android:layout_height="66.0dip"
+                            android:src="@drawable/well" />
 
-                </LinearLayout>
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
+                        <TextView
+                            android:textSize="15.0dip"
+                            android:textColor="@color/black"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10.0dip"
+                            android:text="पाणी साठा" />
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:cardCornerRadius="10dp"
-                android:layout_margin="10dp"
-                android:layout_marginStart="13dp"
-                android:foreground="?attr/selectableItemBackgroundBorderless">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
 
-                <LinearLayout
+                            <TextView
+                                android:textSize="15.0dip"
+                                android:textColor="@color/black"
+                                android:id="@+id/pani_satha"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="१२.८" />
+
+                            <TextView
+                                android:textSize="15.0dip"
+                                android:textColor="@color/black"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" कोटी लिटर" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/gharguti_vapar_cardview"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:paddingTop="17dp"
-                    android:paddingBottom="17dp"
-                    android:paddingStart="20dp"
-                    android:paddingEnd="20dp"
-                    android:orientation="vertical">
+                    android:layout_margin="10.0dip"
+                    android:foreground="?selectableItemBackgroundBorderless"
+                    app:cardCornerRadius="10.0dip">
 
-                <ImageView
-                    android:layout_width="66dp"
-                    android:layout_height="66dp"
-                    android:src="@drawable/leaf"/>
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingTop="17.0dip"
+                        android:paddingBottom="17.0dip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="30.0dip"
+                        android:paddingEnd="30.0dip">
 
-                <TextView
-                    android:layout_width="wrap_content"
+                        <ImageView
+                            android:layout_width="66.0dip"
+                            android:layout_height="66.0dip"
+                            android:src="@drawable/tap" />
+
+                        <TextView
+                            android:textSize="15.0dip"
+                            android:textColor="@color/black"
+                            android:padding="1.0dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10.0dip"
+                            android:text="घरगुती वापर" />
+
+                        <LinearLayout
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:textSize="15.0dip"
+                                android:textColor="@color/black"
+                                android:id="@+id/gharguti_vapar"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="७.६" />
+
+                            <TextView
+                                android:textSize="15.0dip"
+                                android:textColor="@color/black"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" कोटी लिटर" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/pikanchi_garaj_cardview"
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="पिकांची गरज"
-                    android:textColor="@color/black"
-                    android:textSize="15dp"
-                    android:layout_marginTop="10dp"/>
+                    android:layout_margin="10.0dip"
+                    android:foreground="?selectableItemBackgroundBorderless"
+                    android:layout_marginStart="13.0dip"
+                    app:cardCornerRadius="10.0dip">
 
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <TextView
-                        android:id="@+id/pikanchi_garaj"
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingTop="17.0dip"
+                        android:paddingBottom="17.0dip"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/black"
-                        android:textSize="15dp"/>
+                        android:paddingStart="28.0dip"
+                        android:paddingEnd="28.0dip">
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text=" कोटी लिटर"
-                        android:textColor="@color/black"
-                        android:textSize="15dp"/>
+                        <ImageView
+                            android:layout_width="66.0dip"
+                            android:layout_height="66.0dip"
+                            android:src="@drawable/leaf" />
 
-                </LinearLayout>
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-        </GridLayout>
+                        <TextView
+                            android:textSize="15.0dip"
+                            android:textColor="@color/black"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10.0dip"
+                            android:text="पिकांची गरज" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:textSize="15.0dip"
+                                android:textColor="@color/black"
+                                android:id="@+id/pikanchi_garaj"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="३१४.२" />
+
+                            <TextView
+                                android:textSize="15.0dip"
+                                android:textColor="@color/black"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" कोटी लिटर" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </GridLayout>
         </LinearLayout>
-        </LinearLayout>
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

@@ -36,9 +36,7 @@ public class cement_nala_band extends AppCompatActivity
     private float[] yData = {50f, 50f};
     private String[] xData = {"Mitch", "Jessica"};
     private static String TAG = "MainActivity";
-    FirebaseFirestore db;
     TextView jirnar,baashpibhavan;
-    ImageButton back;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState)
@@ -72,45 +70,7 @@ public class cement_nala_band extends AppCompatActivity
         jirnar = cementNalaBandBinding.jirnar;
         baashpibhavan = cementNalaBandBinding.baashpibhavan;
 
-        back = cementNalaBandBinding.back;
-
-        back.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View view)
-            {
-                finish();
-            }
-        });
-
-
-        db = FirebaseFirestore.getInstance();
-
-        DocumentReference docRef = db.collection(UserModel.getVillage()).document("pani_budget").collection("pani_satha").document("pani_satha").
-                collection("jalsandharan").document("jalsandharan").collection("cement_nala_bandh").document("cement_nala_bandh");
-        docRef.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>()
-        {
-            @Override
-            public void onComplete(@NonNull Task<DocumentSnapshot> task)
-            {
-                if (task.isSuccessful())
-                {
-                    DocumentSnapshot document = task.getResult();
-                    //if (document.exists())
-                    //{
-                    Log.d("TAG", "DocumentSnapshot data: " + document.getData());
-
-                    // map.putAll(Objects.requireNonNull(document.getData()));
-
-                    baashpibhavan.setText(document.getString("baashpibhavan"));
-                    jirnar.setText(document.getString("jirnar"));
-                }
-                else
-                {
-                    Log.d("TAG", "get failed with ", task.getException());
-                }
-            }
-        });
+        cementNalaBandBinding.back.setOnClickListener(view -> finish());
     }
 
     private void addDataSet()

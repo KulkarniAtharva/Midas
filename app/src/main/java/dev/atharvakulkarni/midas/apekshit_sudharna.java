@@ -72,7 +72,7 @@ public class apekshit_sudharna extends AppCompatActivity
 
             yes.setOnClickListener(v -> {
                 alertDialog.dismiss();
-                Intent intent = new Intent(apekshit_sudharna.this,ghetle_janare_pik.class);
+                Intent intent = new Intent(apekshit_sudharna.this,summary.class);
                 startActivity(intent);
 
             });

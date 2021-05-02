@@ -27,7 +27,6 @@ public class pikanchi_garaj extends AppCompatActivity
 {
     PikanchiGarajBinding pikanchiGarajBinding;
     CardView cardView2,cardView3,cardView4;
-    FirebaseFirestore db;
     TextView kharip, varshik_kharip, rabbi;
     ImageButton back;
 
@@ -43,37 +42,22 @@ public class pikanchi_garaj extends AppCompatActivity
         cardView3 = pikanchiGarajBinding.cardview3;
         cardView4 = pikanchiGarajBinding.cardview4;
 
-        cardView2.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View view)
-            {
-                Intent intent = new Intent(pikanchi_garaj.this, kharip.class);
-                startActivity(intent);
-                finish();
-            }
+        cardView2.setOnClickListener(view -> {
+            Intent intent = new Intent(pikanchi_garaj.this, kharip.class);
+            startActivity(intent);
+            finish();
         });
 
-        cardView3.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View view)
-            {
-                Intent intent = new Intent(pikanchi_garaj.this, varshik_kharip.class);
-                startActivity(intent);
-                finish();
-            }
+        cardView3.setOnClickListener(view -> {
+            Intent intent = new Intent(pikanchi_garaj.this, varshik_kharip.class);
+            startActivity(intent);
+            finish();
         });
 
-        cardView4.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View view)
-            {
-                Intent intent = new Intent(pikanchi_garaj.this, rabbi.class);
-                startActivityForResult(intent, 2);
-                finish();
-            }
+        cardView4.setOnClickListener(view -> {
+            Intent intent = new Intent(pikanchi_garaj.this, rabbi.class);
+            startActivityForResult(intent, 2);
+            finish();
         });
 
         kharip = pikanchiGarajBinding.kharip;
@@ -82,43 +66,7 @@ public class pikanchi_garaj extends AppCompatActivity
 
         back = pikanchiGarajBinding.back;
 
-        back.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View view)
-            {
-                finish();
-            }
-        });
-
-        db = FirebaseFirestore.getInstance();
-
-        DocumentReference docRef = db.collection(UserModel.getVillage()).document("pani_budget").collection("pikanchi_garaj").document("pikanchi_garaj");
-        docRef.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>()
-        {
-            @Override
-            public void onComplete(@NonNull Task<DocumentSnapshot> task)
-            {
-                if (task.isSuccessful())
-                {
-                    DocumentSnapshot document = task.getResult();
-                    if (document.exists())
-                    {
-                        Log.d("TAG", "DocumentSnapshot data: " + document.getData());
-
-                        // map.putAll(Objects.requireNonNull(document.getData()));
-
-                        kharip.setText(document.getString("kharip"));
-                        varshik_kharip.setText(document.getString("varshik_kharip"));
-                        rabbi.setText(document.getString("rabbi"));
-                    }
-                }
-                else
-                {
-                    Log.d("TAG", "get failed with ", task.getException());
-                }
-            }
-        });
+        back.setOnClickListener(view -> finish());
     }
 
     // Call Back method  to get the Message form other Activity

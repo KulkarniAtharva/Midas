@@ -44,24 +44,14 @@ public class niyojan extends Fragment
         cardView3 = niyojanBinding.cardview3;
         hamburger = niyojanBinding.hamburgerN;
 
-        cardView2.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View view)
-            {
-                Intent intent = new Intent(getContext(),apekshit_sudharna.class);
-                startActivity(intent);
-            }
+        cardView2.setOnClickListener(view13 -> {
+            Intent intent = new Intent(getContext(),apekshit_sudharna.class);
+            startActivity(intent);
         });
 
-        cardView3.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View view)
-            {
-                Intent intent = new Intent(getContext(),ghetle_janare_pik.class);
-                startActivity(intent);
-            }
+        cardView3.setOnClickListener(view12 -> {
+            Intent intent = new Intent(getContext(),summary.class);
+            startActivity(intent);
         });
 
         hamburger.setOnClickListener(view1 -> {

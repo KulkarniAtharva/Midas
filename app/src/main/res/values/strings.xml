@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Midas</string>
+    <string name="paus">Paus 2020:</string>
+    <string name="rabbi">Rabbi sathi uplabdh pani :</string>
+    <string name="sarasari">Sarasari Paus:</string>
+    <string name="vaparlel">Vaparlel pani:</string>
+    <string name="welcome">Welcome</string>
+    <string name="alert">Alerts</string>
 </resources>

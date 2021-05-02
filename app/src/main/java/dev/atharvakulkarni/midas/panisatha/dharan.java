@@ -19,27 +19,25 @@ import com.github.mikephil.charting.data.PieEntry;
 import java.util.ArrayList;
 
 import dev.atharvakulkarni.midas.R;
-import dev.atharvakulkarni.midas.databinding.CctBinding;
-import dev.atharvakulkarni.midas.databinding.KonambeDharanBinding;
+import dev.atharvakulkarni.midas.databinding.DharanBinding;
 
 public class dharan extends AppCompatActivity
 {
-    KonambeDharanBinding konambeDharanBinding;
+    DharanBinding dharanBinding;
     PieChart pieChart;
     private float[] yData = {53.6f, 32.8f, 12.5f};
     private String[] xData = {"Mitch", "Jessica" , "Mohammad"};
     private static String TAG = "MainActivity";
-    ImageButton back;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        konambeDharanBinding = DataBindingUtil.setContentView(this, R.layout.konambe_dharan);
+        dharanBinding = DataBindingUtil.setContentView(this, R.layout.dharan);
 
         getWindow().setStatusBarColor(getResources().getColor(R.color.white,getTheme()));
 
-        pieChart = konambeDharanBinding.chart1;
+        pieChart = dharanBinding.chart1;
         //pieChart.setDescription("Sales by employee (In Thousands $) ");
         pieChart.getDescription().setEnabled(false);
 
@@ -54,16 +52,7 @@ public class dharan extends AppCompatActivity
         pieChart.setCenterTextSize(15);
         pieChart.setHoleColor(getResources().getColor(R.color.pink,getTheme()));
 
-        back = konambeDharanBinding.back;
-
-        back.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View view)
-            {
-                finish();
-            }
-        });
+        dharanBinding.back.setOnClickListener(view -> finish());
 
         // pieChart.setDrawEntryLabels(true);
         //pieChart.setEntryLabelTextSize(20);

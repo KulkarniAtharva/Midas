@@ -28,7 +28,6 @@ public class cct extends AppCompatActivity
     private float[] yData = {53.6f, 32.8f, 12.5f};
     private String[] xData = {"Mitch", "Jessica" , "Mohammad"};
     private static String TAG = "MainActivity";
-    ImageButton back;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState)
@@ -57,16 +56,7 @@ public class cct extends AppCompatActivity
         //pieChart.setEntryLabelTextSize(20);
         //More options just check out the documentation!
 
-        back = cctBinding.back;
-
-        back.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View view)
-            {
-                finish();
-            }
-        });
+        cctBinding.back.setOnClickListener(view -> finish());
 
         addDataSet();
     }
