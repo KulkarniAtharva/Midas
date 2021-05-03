@@ -3,11 +3,8 @@ package dev.atharvakulkarni.midas.panisatha;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
-import android.widget.ImageButton;
 import android.widget.TextView;
 
-import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
@@ -17,21 +14,15 @@ import com.github.mikephil.charting.components.Legend;
 import com.github.mikephil.charting.data.PieData;
 import com.github.mikephil.charting.data.PieDataSet;
 import com.github.mikephil.charting.data.PieEntry;
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.firestore.DocumentReference;
-import com.google.firebase.firestore.DocumentSnapshot;
-import com.google.firebase.firestore.FirebaseFirestore;
 
 import java.util.ArrayList;
 
 import dev.atharvakulkarni.midas.R;
-import dev.atharvakulkarni.midas.UserModel;
-import dev.atharvakulkarni.midas.databinding.PlasticGavtaleBinding;
+import dev.atharvakulkarni.midas.databinding.CanalBinding;
 
-public class plastic_gavtale extends AppCompatActivity
+public class canal extends AppCompatActivity
 {
-    PlasticGavtaleBinding plasticGavtaleBinding;
+    CanalBinding canalBinding;
     PieChart pieChart;
     private float[] yData = {77.1f, 22.9f};
     private String[] xData = {"Mitch", "Jessica"};
@@ -43,11 +34,11 @@ public class plastic_gavtale extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
 
-        plasticGavtaleBinding = DataBindingUtil.setContentView(this, R.layout.plastic_gavtale);
+        canalBinding = DataBindingUtil.setContentView(this, R.layout.canal);
 
         getWindow().setStatusBarColor(getResources().getColor(R.color.white,getTheme()));
 
-        pieChart = plasticGavtaleBinding.chart1;
+        pieChart = canalBinding.chart1;
         //pieChart.setDescription("Sales by employee (In Thousands $) ");
         pieChart.getDescription().setEnabled(false);
 
@@ -68,11 +59,11 @@ public class plastic_gavtale extends AppCompatActivity
 
         addDataSet();
 
-       // total = plasticGavtaleBinding.total;
-        baashpibhavan = plasticGavtaleBinding.bashpibhavan;
-        jaminivaril = plasticGavtaleBinding.jaminivaril;
+        // total = plasticGavtaleBinding.total;
+        baashpibhavan = canalBinding.bashpibhavan;
+        jaminivaril = canalBinding.jaminivaril;
 
-        plasticGavtaleBinding.back.setOnClickListener(view -> finish());
+        canalBinding.back.setOnClickListener(view -> finish());
     }
 
     private void addDataSet()

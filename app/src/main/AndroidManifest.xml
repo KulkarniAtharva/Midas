@@ -22,7 +22,7 @@
         </activity>
         <activity android:name=".paus"/>
         <activity android:name=".gharguti_vapar"/>
-        <activity android:name=".pani_satha"/>
+        <activity android:name=".panisatha.pani_satha"/>
         <activity android:name=".pikanchi_garaj.pikanchi_garaj"/>
         <activity android:name=".panisatha.jalsandharan"/>
         <activity android:name=".panisatha.prushtabhagavaril"/>
@@ -35,11 +35,12 @@
         <activity android:name=".pikanchi_garaj.kharip"/>
         <activity android:name=".pikanchi_garaj.varshik_kharip"/>
         <activity android:name=".pikanchi_garaj.rabbi"/>
-        <activity android:name=".ghetle_janare_pik"/>
+        <activity android:name=".summary"/>
         <activity android:name=".apekshit_sudharna"/>
         <activity android:name=".purna"/>
         <activity android:name=".panisatha.bin_plastic_gavtale"/>
         <activity android:name=".panisatha.matiche_nala_band"/>
+        <activity android:name=".panisatha.canal"/>
     </application>
 
 </manifest>

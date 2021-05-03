@@ -35,9 +35,10 @@ public class prushtabhagavaril extends AppCompatActivity
 
         getWindow().setStatusBarColor(getResources().getColor(R.color.white,getTheme()));
 
-        prushtabhagavarilBinding.cardview2.setOnClickListener(view -> {
+        prushtabhagavarilBinding.cardview1.setOnClickListener(view -> {
             Intent intent = new Intent(prushtabhagavaril.this, dharan.class);
             startActivity(intent);
+
         });
 
         prushtabhagavarilBinding.cardview2.setOnClickListener(view -> {
@@ -45,12 +46,12 @@ public class prushtabhagavaril extends AppCompatActivity
             startActivity(intent);
         });
 
-        prushtabhagavarilBinding.cardview4.setOnClickListener(view -> {
+        prushtabhagavarilBinding.cardview3.setOnClickListener(view -> {
             Intent intent = new Intent(prushtabhagavaril.this, plastic_gavtale.class);
             startActivity(intent);
         });
 
-        prushtabhagavarilBinding.cardview5.setOnClickListener(view -> {
+        prushtabhagavarilBinding.cardview4.setOnClickListener(view -> {
             Intent intent = new Intent(prushtabhagavaril.this, bin_plastic_gavtale.class);
             startActivity(intent);
             //Toast.makeText(prushtabhagavaril.this, "Not Present", Toast.LENGTH_SHORT).show();

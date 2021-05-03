@@ -65,8 +65,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:layout_marginTop="55dp"
-            android:background="@drawable/curve2"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/cardview_rounded"
             android:gravity="center">
 
             <TextView
@@ -74,7 +74,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="पाणी वापर:"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="30dp"
                 android:textColor="@color/black"
                 android:textStyle="bold"
                 android:gravity="center"

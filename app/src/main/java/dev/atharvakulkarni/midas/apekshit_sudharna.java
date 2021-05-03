@@ -28,6 +28,7 @@ import java.util.ArrayList;
 
 import dev.atharvakulkarni.midas.databinding.ApekshitSudharnaBinding;
 
+
 public class apekshit_sudharna extends AppCompatActivity
 {
     ApekshitSudharnaBinding apekshitSudharnaBinding;
@@ -100,8 +101,6 @@ public class apekshit_sudharna extends AppCompatActivity
             Glide.with(apekshit_sudharna.this).load(R.drawable.well_animation).into(imageView);
         });
 
-        back = apekshitSudharnaBinding.back;
-
-        back.setOnClickListener(view -> finish());
+        apekshitSudharnaBinding.back.setOnClickListener(view -> finish());
     }
 }

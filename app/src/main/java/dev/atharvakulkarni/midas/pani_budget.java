@@ -2,7 +2,6 @@ package dev.atharvakulkarni.midas;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,18 +15,9 @@ import androidx.annotation.Nullable;
 import androidx.cardview.widget.CardView;
 import androidx.databinding.DataBindingUtil;
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentTransaction;
-
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.firestore.DocumentReference;
-import com.google.firebase.firestore.DocumentSnapshot;
-import com.google.firebase.firestore.FirebaseFirestore;
 
 import dev.atharvakulkarni.midas.databinding.PaniBudgetBinding;
 import dev.atharvakulkarni.midas.interfaces.HamburgerDrawer;
-import dev.atharvakulkarni.midas.pikanchi_garaj.pikanchi_garaj;
 
 public class pani_budget extends Fragment
 {
@@ -108,7 +98,7 @@ public class pani_budget extends Fragment
 
     void pani_satha()
     {
-        Intent intent = new Intent(getContext(), pani_satha.class);
+        Intent intent = new Intent(getContext(), dev.atharvakulkarni.midas.panisatha.pani_satha.class);
         startActivity(intent);
         //intent.putExtra("Uname",uname);
         // finish();

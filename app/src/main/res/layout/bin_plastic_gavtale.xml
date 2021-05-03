@@ -19,7 +19,7 @@
             <LinearLayout
                 android:id="@+id/linearlayout"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:gravity="center">
 
@@ -74,14 +74,15 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:background="@drawable/curve2">
+            android:background="@drawable/cardview_rounded"
+            android:layout_marginTop="50dp">
 
             <TextView
                 android:id="@+id/pani_vapa"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="पाणी वापर:"
-                android:layout_marginTop="45dp"
+                android:layout_marginTop="30dp"
                 android:textColor="@color/black"
                 android:textStyle="bold"
                 android:gravity="center"

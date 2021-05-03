@@ -1,31 +1,32 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <group android:checkableBehavior="none">
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="none">
         <item
+            android:icon="@drawable/person"
             android:id="@+id/profile"
-            android:title="Profile"
-            android:icon="@drawable/home"/>
+            android:title="Profile" />
+
         <item
+            android:icon="@drawable/key"
             android:id="@+id/faqs"
-            android:title="FAQ's"
-            android:icon="@drawable/home"/>
-
+            android:title="FAQ's" />
         <item
+            android:icon="@drawable/phone"
             android:id="@+id/contactus"
-            android:title="Contact us"
-            android:icon="@drawable/home"/>
+            android:title="Contact us" />
         <item
+            android:icon="@drawable/feedback"
             android:id="@+id/feedback"
-            android:title="Feedback"
-            android:icon="@drawable/home"/>
-
+            android:title="Feedback" />
         <item
+            android:icon="@drawable/language"
             android:id="@+id/language"
-            android:title="Language"
-            android:icon="@drawable/home"/>
-
+            android:title="Language" />
+        <item
+            android:icon="@drawable/logout"
+            android:id="@+id/logout"
+            android:title="Logout" />
     </group>
-
-
-
 </menu>
