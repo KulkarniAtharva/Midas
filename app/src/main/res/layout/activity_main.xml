@@ -38,9 +38,9 @@
                     app:menu="@menu/bottom_navigation_items"
                     android:background="@drawable/bottom_navigation_background"
                     app:labelVisibilityMode="labeled"
-                    android:layout_marginBottom="32dp"
-                    android:layout_marginStart="21dp"
-                    android:layout_marginEnd="21dp"/>
+                    android:layout_marginBottom="@dimen/_32sdp"
+                    android:layout_marginStart="@dimen/_21sdp"
+                    android:layout_marginEnd="@dimen/_21sdp"/>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

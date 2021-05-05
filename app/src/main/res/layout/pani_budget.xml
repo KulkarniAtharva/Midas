@@ -43,12 +43,12 @@
                     android:scaleType="fitXY" />
 
                 <TextView
-                    android:textSize="30.0dip"
+                    android:textSize="30.0sp"
                     android:textStyle="bold"
                     android:textColor="@color/black"
                     android:gravity="center"
                     android:id="@id/title"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="पाणी बजेट"
                     android:layout_weight="1.0" />
@@ -69,7 +69,7 @@
                     android:layout_height="wrap_content">
 
                     <TextView
-                        android:textSize="15.0dip"
+                        android:textSize="15.0sp"
                         android:textStyle="bold"
                         android:textColor="@color/black"
                         android:layout_width="0.0dip"
@@ -78,7 +78,7 @@
                         android:layout_weight="1.0" />
 
                     <TextView
-                        android:textSize="15.0dip"
+                        android:textSize="15.0sp"
                         android:textColor="@color/black"
                         android:id="@+id/pausamuleuplabdh"
                         android:layout_width="wrap_content"
@@ -87,7 +87,7 @@
                         android:layout_marginStart="5.0dip" />
 
                     <TextView
-                        android:textSize="15.0dip"
+                        android:textSize="15.0sp"
                         android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -102,16 +102,16 @@
                     android:layout_marginTop="7.0dip">
 
                     <TextView
-                        android:textSize="15.0dip"
+                        android:textSize="15.0sp"
                         android:textStyle="bold"
                         android:textColor="@color/black"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:text="एकूण वापरलेल पाणी:"
                         android:layout_weight="1.0" />
 
                     <TextView
-                        android:textSize="15.0dip"
+                        android:textSize="15.0sp"
                         android:textColor="@color/black"
                         android:id="@+id/ekunvaparlel"
                         android:layout_width="wrap_content"
@@ -120,7 +120,7 @@
                         android:layout_marginStart="5.0dip" />
 
                     <TextView
-                        android:textSize="15.0dip"
+                        android:textSize="15.0sp"
                         android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -135,16 +135,16 @@
                     android:layout_marginTop="7.0dip">
 
                     <TextView
-                        android:textSize="15.0dip"
+                        android:textSize="15.0sp"
                         android:textStyle="bold"
                         android:textColor="@color/black"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:text="एकूण रब्बी साठी उपलब्ध पाणी:"
                         android:layout_weight="1.0" />
 
                     <TextView
-                        android:textSize="15.0dip"
+                        android:textSize="15.0sp"
                         android:textColor="@color/black"
                         android:id="@+id/ekun_rabbi"
                         android:layout_width="wrap_content"
@@ -153,7 +153,7 @@
                         android:layout_marginStart="5.0dip" />
 
                     <TextView
-                        android:textSize="15.0dip"
+                        android:textSize="15.0sp"
                         android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -168,16 +168,16 @@
                     android:layout_marginTop="7.0dip">
 
                     <TextView
-                        android:textSize="15.0dip"
+                        android:textSize="15.0sp"
                         android:textStyle="bold"
                         android:textColor="@color/black"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:text="क्षेत्रातील भूजल साठा:"
                         android:layout_weight="1.0" />
 
                     <TextView
-                        android:textSize="15.0dip"
+                        android:textSize="15.0sp"
                         android:textColor="@color/black"
                         android:id="@+id/ekun_rabb"
                         android:layout_width="wrap_content"
@@ -186,7 +186,7 @@
                         android:layout_marginStart="5.0dip" />
 
                     <TextView
-                        android:textSize="15.0dip"
+                        android:textSize="15.0sp"
                         android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -202,16 +202,16 @@
                     android:layout_marginTop="7.0dip">
 
                     <TextView
-                        android:textSize="15.0dip"
+                        android:textSize="15.0sp"
                         android:textStyle="bold"
                         android:textColor="@color/black"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:text="भूजल विकासाचा टप्पा:"
                         android:layout_weight="1.0" />
 
                     <TextView
-                        android:textSize="15.0dip"
+                        android:textSize="15.0sp"
                         android:textColor="@color/black"
                         android:id="@+id/ekun_rab"
                         android:layout_width="wrap_content"
@@ -219,7 +219,7 @@
                         android:text="९४.९६"
                         android:layout_marginStart="5.0dip" />
                     <TextView
-                        android:textSize="15.0dip"
+                        android:textSize="15.0sp"
                         android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -237,7 +237,7 @@
             android:layout_marginTop="30.0dip">
 
             <TextView
-                android:textSize="20.0dip"
+                android:textSize="20.0sp"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:gravity="center"
@@ -281,7 +281,7 @@
                             android:src="@drawable/cloud" />
 
                         <TextView
-                            android:textSize="15.0dip"
+                            android:textSize="15.0sp"
                             android:textColor="@color/black"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -293,7 +293,7 @@
                             android:layout_height="wrap_content">
 
                             <TextView
-                                android:textSize="15.0dip"
+                                android:textSize="15.0sp"
                                 android:textColor="@color/black"
                                 android:id="@+id/paus"
                                 android:layout_width="wrap_content"
@@ -301,7 +301,7 @@
                                 android:text="६१०" />
 
                             <TextView
-                                android:textSize="15.0dip"
+                                android:textSize="15.0sp"
                                 android:textColor="@color/black"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -336,7 +336,7 @@
                             android:src="@drawable/well" />
 
                         <TextView
-                            android:textSize="15.0dip"
+                            android:textSize="15.0sp"
                             android:textColor="@color/black"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -348,7 +348,7 @@
                             android:layout_height="wrap_content">
 
                             <TextView
-                                android:textSize="15.0dip"
+                                android:textSize="15.0sp"
                                 android:textColor="@color/black"
                                 android:id="@+id/pani_satha"
                                 android:layout_width="wrap_content"
@@ -356,7 +356,7 @@
                                 android:text="१२.८" />
 
                             <TextView
-                                android:textSize="15.0dip"
+                                android:textSize="15.0sp"
                                 android:textColor="@color/black"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -389,7 +389,7 @@
                             android:src="@drawable/tap" />
 
                         <TextView
-                            android:textSize="15.0dip"
+                            android:textSize="15.0sp"
                             android:textColor="@color/black"
                             android:padding="1.0dip"
                             android:layout_width="wrap_content"
@@ -403,7 +403,7 @@
                             android:layout_height="wrap_content">
 
                             <TextView
-                                android:textSize="15.0dip"
+                                android:textSize="15.0sp"
                                 android:textColor="@color/black"
                                 android:id="@+id/gharguti_vapar"
                                 android:layout_width="wrap_content"
@@ -411,7 +411,7 @@
                                 android:text="७.६" />
 
                             <TextView
-                                android:textSize="15.0dip"
+                                android:textSize="15.0sp"
                                 android:textColor="@color/black"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -446,7 +446,7 @@
                             android:src="@drawable/leaf" />
 
                         <TextView
-                            android:textSize="15.0dip"
+                            android:textSize="15.0sp"
                             android:textColor="@color/black"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -458,7 +458,7 @@
                             android:layout_height="wrap_content">
 
                             <TextView
-                                android:textSize="15.0dip"
+                                android:textSize="15.0sp"
                                 android:textColor="@color/black"
                                 android:id="@+id/pikanchi_garaj"
                                 android:layout_width="wrap_content"
@@ -466,7 +466,7 @@
                                 android:text="३१४.२" />
 
                             <TextView
-                                android:textSize="15.0dip"
+                                android:textSize="15.0sp"
                                 android:textColor="@color/black"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"

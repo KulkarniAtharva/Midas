@@ -16,8 +16,8 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:paddingStart="21dp"
-            android:paddingEnd="21dp">
+            android:paddingStart="@dimen/_21sdp"
+            android:paddingEnd="@dimen/_21sdp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -28,14 +28,14 @@
 
                 <ImageButton
                     android:id="@+id/hamburger_h"
-                    android:layout_width="20dp"
-                    android:layout_height="20dp"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_13sdp"
                     android:src="@drawable/hamburger"
                     android:background="@null"
                     android:scaleType="fitXY" />
 
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center">
@@ -45,7 +45,7 @@
                     android:layout_height="wrap_content"
                     android:text="आपले "
                     android:textColor="@color/black"
-                    android:textSize="30dp"
+                    android:textSize="@dimen/_24sdp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -53,7 +53,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/black"
-                    android:textSize="30dp"
+                    android:textSize="@dimen/_24sdp"
                     android:textStyle="bold" />
 
                 </LinearLayout>
@@ -65,14 +65,14 @@
                 android:layout_height="wrap_content"
                 android:src="@drawable/village"
                 android:adjustViewBounds="true"
-                android:layout_marginTop="30dp"/>
+                android:layout_marginTop="@dimen/_16sdp"/>
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardview2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="35dp"
-                app:cardCornerRadius="15dp"
+                android:layout_marginTop="@dimen/_17sdp"
+                app:cardCornerRadius="@dimen/_15sdp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/imageview">
@@ -82,7 +82,7 @@
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:orientation="vertical"
-                    android:padding="15dp">
+                    android:padding="@dimen/_10sdp">   <!--  -->
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -90,15 +90,15 @@
                         android:layout_gravity="center"
                         android:text="अलर्ट"
                         android:textColor="@color/red"
-                        android:textSize="16dp"
+                        android:textSize="@dimen/_12sdp"
                         android:textStyle="bold" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="6dp"
+                        android:layout_marginTop="@dimen/_5sdp"
                         android:gravity="center"
-                        android:padding="10dp">
+                        android:padding="@dimen/_4sdp">
 
                         <LinearLayout
                             android:id="@+id/linearlayout1"
@@ -109,14 +109,14 @@
                             android:visibility="visible">
 
                             <ImageView
-                                android:layout_width="33dp"
-                                android:layout_height="33dp"
+                                android:layout_width="@dimen/_25sdp"
+                                android:layout_height="@dimen/_22sdp"
                                 android:src="@drawable/cloud2" />
 
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_marginStart="20dp"
+                                android:layout_marginStart="@dimen/_20sdp"
                                 android:orientation="vertical">
 
                                 <LinearLayout
@@ -128,48 +128,48 @@
                                         android:layout_height="wrap_content"
                                         android:text="सरासरी पाऊस: "
                                         android:textColor="@color/black"
-                                        android:textSize="15dp" />
+                                        android:textSize="@dimen/_11sdp" />
 
                                     <TextView
                                         android:id="@+id/sarasari_paus"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:textColor="@color/black"
-                                        android:textSize="15dp" />
+                                        android:textSize="@dimen/_11sdp" />
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:text=" मि.मि"
                                         android:textColor="@color/black"
-                                        android:textSize="15dp" />
+                                        android:textSize="@dimen/_11sdp" />
 
                                 </LinearLayout>
 
                                 <LinearLayout
                                     android:layout_width="match_parent"
-                                    android:layout_height="19dp">
+                                    android:layout_height="wrap_content">
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:text="पाऊस २०२०: "
                                         android:textColor="@color/black"
-                                        android:textSize="15dp" />
+                                        android:textSize="@dimen/_11sdp" />
 
                                     <TextView
                                         android:id="@+id/paus_2020"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:textColor="@color/black"
-                                        android:textSize="15dp" />
+                                        android:textSize="@dimen/_11sdp" />
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:text=" मि.मि \n"
                                         android:textColor="@color/black"
-                                        android:textSize="15dp" />
+                                        android:textSize="@dimen/_11sdp" />
 
                                 </LinearLayout>
                             </LinearLayout>
@@ -184,29 +184,30 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/cardview2"
-            app:cardCornerRadius="10dp"
-            android:layout_marginTop="50dp">
+            app:cardCornerRadius="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_26sdp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingStart="20dp"
-                android:paddingEnd="20dp"
-                android:paddingBottom="25dp"
+                android:paddingStart="@dimen/_21sdp"
+                android:paddingEnd="@dimen/_21sdp"
+                android:paddingBottom="@dimen/_14sdp"
+                android:paddingTop="@dimen/_14sdp"
                 android:orientation="vertical"
                 android:gravity="center">
 
                 <ImageView
                     android:id="@+id/see_saw"
-                    android:layout_width="150dp"
-                    android:layout_height="110dp"
+                    android:layout_width="@dimen/_111sdp"
+                    android:layout_height="@dimen/_58sdp"
                     android:src="@drawable/see_saw" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                   >
+                    android:layout_marginTop="@dimen/_27sdp">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -224,8 +225,8 @@
                         android:text="वापरलेल पाणी:"
                         android:textColor="@color/black"
                         android:textStyle="bold"
-                        android:layout_marginStart="5dp"
-                        android:textSize="15dp"/>
+                        android:layout_marginStart="@dimen/_6sdp"
+                        android:textSize="@dimen/_11sdp"/>
 
                     <TextView
                         android:id="@+id/vaparlel_pani"
@@ -233,8 +234,8 @@
                         android:layout_height="wrap_content"
                         android:textColor="@color/black"
                         android:textStyle="bold"
-                        android:layout_marginStart="5dp"
-                        android:textSize="15dp"/>
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:textSize="@dimen/_11sdp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -242,8 +243,8 @@
                         android:text="कोटी लिटर"
                         android:textColor="@color/black"
                         android:textStyle="bold"
-                        android:layout_marginStart="5dp"
-                        android:textSize="15dp"/>
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:textSize="@dimen/_11sdp"/>
 
                 </LinearLayout>
 
@@ -264,8 +265,8 @@
                         android:text="रब्बी साठी उपलब्ध पाणी :"
                         android:textColor="@color/black"
                         android:textStyle="bold"
-                        android:layout_marginStart="5dp"
-                        android:textSize="15dp"/>
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:textSize="@dimen/_11sdp"/>
 
                     <TextView
                         android:id="@+id/rabbisathi"
@@ -274,7 +275,7 @@
                         android:textColor="@color/black"
                         android:textStyle="bold"
                         android:layout_marginStart="5dp"
-                        android:textSize="15dp"/>
+                        android:textSize="@dimen/_11sdp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -283,7 +284,7 @@
                         android:textColor="@color/black"
                         android:textStyle="bold"
                         android:layout_marginStart="5dp"
-                        android:textSize="15dp"/>
+                        android:textSize="15sp"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -293,16 +294,16 @@
                     android:layout_marginTop="4dp">
 
                     <ImageView
-                        android:layout_width="8dp"
-                        android:layout_height="8dp"
+                        android:layout_width="@dimen/_8sdp"
+                        android:layout_height="@dimen/_8sdp"
                         android:src="@drawable/error2"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="एकूण शिल्लक पाणी :"
-                        android:layout_marginStart="5dp"
-                        android:textSize="15dp"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:textSize="@dimen/_11sdp"
                         android:textStyle="bold"
                         android:textColor="@color/red"/>
 
@@ -311,7 +312,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="5dp"
-                        android:textSize="15dp"
+                        android:textSize="@dimen/_11sdp"
                         android:textStyle="bold"
                         android:textColor="@color/red"/>
 
@@ -320,7 +321,7 @@
                         android:layout_height="wrap_content"
                         android:text="कोटी लिटर"
                         android:layout_marginStart="5dp"
-                        android:textSize="15dp"
+                        android:textSize="@dimen/_11sdp"
                         android:textStyle="bold"
                         android:textColor="@color/red"/>
 
