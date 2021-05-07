@@ -38,9 +38,11 @@
                     app:menu="@menu/bottom_navigation_items"
                     android:background="@drawable/bottom_navigation_background"
                     app:labelVisibilityMode="labeled"
-                    android:layout_marginBottom="@dimen/_32sdp"
+                    android:layout_marginBottom="@dimen/_26sdp"
                     android:layout_marginStart="@dimen/_21sdp"
-                    android:layout_marginEnd="@dimen/_21sdp"/>
+                    android:layout_marginEnd="@dimen/_21sdp"
+                    app:itemTextAppearanceActive="@style/BottomNavigationView.Active"
+                    app:itemTextAppearanceInactive="@style/BottomNavigationView"/>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

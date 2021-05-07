@@ -21,7 +21,7 @@ public class niyojan extends Fragment
 {
     NiyojanBinding niyojanBinding;
     TextView title;
-    CardView cardView2,cardView3;
+    CardView cardView1,cardView2;
     ImageButton hamburger;
 
     HamburgerDrawer hamburgerDrawer;
@@ -40,16 +40,16 @@ public class niyojan extends Fragment
 
         //title = homeBinding.title;
 
+        cardView1 = niyojanBinding.cardview1;
         cardView2 = niyojanBinding.cardview2;
-        cardView3 = niyojanBinding.cardview3;
         hamburger = niyojanBinding.hamburgerN;
 
-        cardView2.setOnClickListener(view13 -> {
+        cardView1.setOnClickListener(view13 -> {
             Intent intent = new Intent(getContext(),apekshit_sudharna.class);
             startActivity(intent);
         });
 
-        cardView3.setOnClickListener(view12 -> {
+        cardView2.setOnClickListener(view12 -> {
             Intent intent = new Intent(getContext(),summary.class);
             startActivity(intent);
         });

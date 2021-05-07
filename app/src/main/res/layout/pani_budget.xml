@@ -29,21 +29,21 @@
                 android:orientation="horizontal"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="21.0dip"
-                android:paddingStart="21.0dip"
-                android:paddingEnd="21.0dip">
+                android:layout_marginTop="@dimen/_21sdp"
+                android:paddingStart="@dimen/_21sdp"
+                android:paddingEnd="@dimen/_21sdp">
 
                 <ImageButton
                     android:id="@+id/hamburger_pb"
                     android:background="@null"
-                    android:layout_width="20.0dip"
-                    android:layout_height="20.0dip"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_13sdp"
                     android:foreground="?selectableItemBackgroundBorderless"
                     android:src="@drawable/hamburger"
                     android:scaleType="fitXY" />
 
                 <TextView
-                    android:textSize="30.0sp"
+                    android:textSize="@dimen/_24sdp"
                     android:textStyle="bold"
                     android:textColor="@color/black"
                     android:gravity="center"
@@ -59,50 +59,47 @@
                 android:orientation="vertical"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="46.0dip"
-                android:layout_marginStart="21.0dip"
-                android:layout_marginEnd="21.0dip">
+                android:layout_marginTop="@dimen/_40sdp"
+                android:layout_marginStart="@dimen/_21sdp"
+                android:layout_marginEnd="@dimen/_21sdp">
 
                 <LinearLayout
-                    android:paddingBottom="1.0dip"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content">
 
                     <TextView
-                        android:textSize="15.0sp"
+                        android:textSize="@dimen/_12sdp"
                         android:textStyle="bold"
                         android:textColor="@color/black"
-                        android:layout_width="0.0dip"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:text="पाऊसामुळे उपलब्ध पाणी:"
                         android:layout_weight="1.0" />
 
                     <TextView
-                        android:textSize="15.0sp"
+                        android:textSize="@dimen/_12sdp"
                         android:textColor="@color/black"
                         android:id="@+id/pausamuleuplabdh"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="६५८.८"
-                        android:layout_marginStart="5.0dip" />
+                        android:text="६५८.८" />
 
                     <TextView
-                        android:textSize="15.0sp"
+                        android:textSize="@dimen/_12sdp"
                         android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="कोटी लिटर"
-                        android:layout_marginStart="5.0dip" />
+                        android:text=" कोटी लिटर" />
 
                 </LinearLayout>
                 <LinearLayout
                     android:paddingBottom="1.0dip"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="7.0dip">
+                    android:layout_marginTop="@dimen/_7sdp">
 
                     <TextView
-                        android:textSize="15.0sp"
+                        android:textSize="@dimen/_12sdp"
                         android:textStyle="bold"
                         android:textColor="@color/black"
                         android:layout_width="0dp"
@@ -111,31 +108,28 @@
                         android:layout_weight="1.0" />
 
                     <TextView
-                        android:textSize="15.0sp"
+                        android:textSize="@dimen/_12sdp"
                         android:textColor="@color/black"
                         android:id="@+id/ekunvaparlel"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="१८६.३"
-                        android:layout_marginStart="5.0dip" />
+                        android:text="१८६.३" />
 
                     <TextView
-                        android:textSize="15.0sp"
+                        android:textSize="@dimen/_12sdp"
                         android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="कोटी लिटर"
-                        android:layout_marginStart="5.0dip" />
+                        android:text=" कोटी लिटर" />
 
                 </LinearLayout>
                 <LinearLayout
-                    android:paddingBottom="1.0dip"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="7.0dip">
+                    android:layout_marginTop="@dimen/_7sdp">
 
                     <TextView
-                        android:textSize="15.0sp"
+                        android:textSize="@dimen/_12sdp"
                         android:textStyle="bold"
                         android:textColor="@color/black"
                         android:layout_width="0dp"
@@ -144,31 +138,28 @@
                         android:layout_weight="1.0" />
 
                     <TextView
-                        android:textSize="15.0sp"
+                        android:textSize="@dimen/_12sdp"
                         android:textColor="@color/black"
                         android:id="@+id/ekun_rabbi"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="४७२.५"
-                        android:layout_marginStart="5.0dip" />
+                        android:text="४७२.५" />
 
                     <TextView
-                        android:textSize="15.0sp"
+                        android:textSize="@dimen/_12sdp"
                         android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="कोटी लिटर"
-                        android:layout_marginStart="5.0dip" />
+                        android:text=" कोटी लिटर" />
 
                 </LinearLayout>
                 <LinearLayout
-                    android:paddingBottom="1.0dip"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="7.0dip">
+                    android:layout_marginTop="@dimen/_7sdp">
 
                     <TextView
-                        android:textSize="15.0sp"
+                        android:textSize="@dimen/_12sdp"
                         android:textStyle="bold"
                         android:textColor="@color/black"
                         android:layout_width="0dp"
@@ -177,32 +168,29 @@
                         android:layout_weight="1.0" />
 
                     <TextView
-                        android:textSize="15.0sp"
+                        android:textSize="@dimen/_12sdp"
                         android:textColor="@color/black"
                         android:id="@+id/ekun_rabb"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="१८०.६"
-                        android:layout_marginStart="5.0dip" />
+                        android:text="१८०.६" />
 
                     <TextView
-                        android:textSize="15.0sp"
+                        android:textSize="@dimen/_12sdp"
                         android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="कोटी लिटर"
-                        android:layout_marginStart="5.0dip" />
+                        android:text=" कोटी लिटर" />
 
                 </LinearLayout>
 
                 <LinearLayout
-                    android:paddingBottom="1.0dip"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="7.0dip">
+                    android:layout_marginTop="@dimen/_7sdp">
 
                     <TextView
-                        android:textSize="15.0sp"
+                        android:textSize="@dimen/_12sdp"
                         android:textStyle="bold"
                         android:textColor="@color/black"
                         android:layout_width="0dp"
@@ -211,20 +199,18 @@
                         android:layout_weight="1.0" />
 
                     <TextView
-                        android:textSize="15.0sp"
+                        android:textSize="@dimen/_12sdp"
                         android:textColor="@color/black"
                         android:id="@+id/ekun_rab"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="९४.९६"
-                        android:layout_marginStart="5.0dip" />
+                        android:text="९४.९६" />
                     <TextView
-                        android:textSize="15.0sp"
+                        android:textSize="@dimen/_12sdp"
                         android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="%"
-                        android:layout_marginStart="5.0dip" />
+                        android:text=" %" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
@@ -234,16 +220,16 @@
             android:background="@drawable/cardview_rounded"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:layout_marginTop="30.0dip">
+            android:layout_marginTop="@dimen/_25sdp">
 
             <TextView
-                android:textSize="20.0sp"
+                android:textSize="@dimen/_16sdp"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:gravity="center"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="30.0dip"
+                android:layout_marginTop="@dimen/_20sdp"
                 android:text="पाणी बजेट माहिती" />
 
             <GridLayout
@@ -251,41 +237,41 @@
                 android:id="@id/grid"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
-                android:layout_marginTop="20.0dip"
+                android:layout_marginTop="@dimen/_16sdp"
                 android:rowCount="2"
                 android:columnCount="2"
-                android:layout_marginStart="11.0dip"
-                android:layout_marginEnd="11.0dip">
+                android:layout_marginStart="@dimen/_11sdp"
+                android:layout_marginEnd="@dimen/_11sdp">
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/paus_cardview"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10.0dip"
+                    android:layout_margin="@dimen/_6sdp"
                     android:foreground="?selectableItemBackgroundBorderless"
-                    app:cardCornerRadius="10.0dip">
+                    app:cardCornerRadius="@dimen/_10sdp">
 
                     <LinearLayout
                         android:gravity="center"
                         android:orientation="vertical"
-                        android:paddingTop="17.0dip"
-                        android:paddingBottom="17.0dip"
+                        android:paddingTop="@dimen/_14sdp"
+                        android:paddingBottom="@dimen/_14sdp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:paddingStart="35.0dip"
-                        android:paddingEnd="35.0dip">
+                        android:paddingStart="@dimen/_30sdp"
+                        android:paddingEnd="@dimen/_30sdp">
 
                         <ImageView
-                            android:layout_width="66.0dip"
-                            android:layout_height="66.0dip"
+                            android:layout_width="@dimen/_42sdp"
+                            android:layout_height="@dimen/_42sdp"
                             android:src="@drawable/cloud" />
 
                         <TextView
-                            android:textSize="15.0sp"
+                            android:textSize="@dimen/_11sdp"
                             android:textColor="@color/black"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10.0dip"
+                            android:layout_marginTop="@dimen/_10sdp"
                             android:text="पाऊस" />
 
                         <LinearLayout
@@ -293,7 +279,7 @@
                             android:layout_height="wrap_content">
 
                             <TextView
-                                android:textSize="15.0sp"
+                                android:textSize="@dimen/_11sdp"
                                 android:textColor="@color/black"
                                 android:id="@+id/paus"
                                 android:layout_width="wrap_content"
@@ -301,7 +287,7 @@
                                 android:text="६१०" />
 
                             <TextView
-                                android:textSize="15.0sp"
+                                android:textSize="@dimen/_11sdp"
                                 android:textColor="@color/black"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -315,32 +301,32 @@
                     android:id="@+id/pani_satha_cardview"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10.0dip"
+                    android:layout_margin="@dimen/_6sdp"
                     android:foreground="?selectableItemBackgroundBorderless"
-                    android:layout_marginStart="13.0dip"
-                    app:cardCornerRadius="10.0dip">
+                    android:layout_marginStart="@dimen/_13sdp"
+                    app:cardCornerRadius="@dimen/_10sdp">
 
                     <LinearLayout
                         android:gravity="center"
                         android:orientation="vertical"
-                        android:paddingTop="17.0dip"
-                        android:paddingBottom="17.0dip"
+                        android:paddingTop="@dimen/_14sdp"
+                        android:paddingBottom="@dimen/_14sdp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:paddingStart="30.0dip"
-                        android:paddingEnd="30.0dip">
+                        android:paddingStart="@dimen/_25sdp"
+                        android:paddingEnd="@dimen/_25sdp">
 
                         <ImageView
-                            android:layout_width="66.0dip"
-                            android:layout_height="66.0dip"
+                            android:layout_width="@dimen/_42sdp"
+                            android:layout_height="@dimen/_42sdp"
                             android:src="@drawable/well" />
 
                         <TextView
-                            android:textSize="15.0sp"
+                            android:textSize="@dimen/_11sdp"
                             android:textColor="@color/black"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10.0dip"
+                            android:layout_marginTop="@dimen/_10sdp"
                             android:text="पाणी साठा" />
 
                         <LinearLayout
@@ -348,7 +334,7 @@
                             android:layout_height="wrap_content">
 
                             <TextView
-                                android:textSize="15.0sp"
+                                android:textSize="@dimen/_11sdp"
                                 android:textColor="@color/black"
                                 android:id="@+id/pani_satha"
                                 android:layout_width="wrap_content"
@@ -356,7 +342,7 @@
                                 android:text="१२.८" />
 
                             <TextView
-                                android:textSize="15.0sp"
+                                android:textSize="@dimen/_11sdp"
                                 android:textColor="@color/black"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -369,32 +355,31 @@
                     android:id="@+id/gharguti_vapar_cardview"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10.0dip"
+                    android:layout_margin="@dimen/_6sdp"
                     android:foreground="?selectableItemBackgroundBorderless"
-                    app:cardCornerRadius="10.0dip">
+                    app:cardCornerRadius="@dimen/_10sdp">
 
                     <LinearLayout
                         android:gravity="center"
                         android:orientation="vertical"
-                        android:paddingTop="17.0dip"
-                        android:paddingBottom="17.0dip"
+                        android:paddingTop="@dimen/_14sdp"
+                        android:paddingBottom="@dimen/_14sdp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:paddingStart="30.0dip"
-                        android:paddingEnd="30.0dip">
+                        android:paddingStart="@dimen/_25sdp"
+                        android:paddingEnd="@dimen/_25sdp">
 
                         <ImageView
-                            android:layout_width="66.0dip"
-                            android:layout_height="66.0dip"
+                            android:layout_width="@dimen/_42sdp"
+                            android:layout_height="@dimen/_42sdp"
                             android:src="@drawable/tap" />
 
                         <TextView
-                            android:textSize="15.0sp"
+                            android:textSize="@dimen/_11sdp"
                             android:textColor="@color/black"
-                            android:padding="1.0dip"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10.0dip"
+                            android:layout_marginTop="@dimen/_10sdp"
                             android:text="घरगुती वापर" />
 
                         <LinearLayout
@@ -403,7 +388,7 @@
                             android:layout_height="wrap_content">
 
                             <TextView
-                                android:textSize="15.0sp"
+                                android:textSize="@dimen/_11sdp"
                                 android:textColor="@color/black"
                                 android:id="@+id/gharguti_vapar"
                                 android:layout_width="wrap_content"
@@ -411,7 +396,7 @@
                                 android:text="७.६" />
 
                             <TextView
-                                android:textSize="15.0sp"
+                                android:textSize="@dimen/_11sdp"
                                 android:textColor="@color/black"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -425,32 +410,32 @@
                     android:id="@+id/pikanchi_garaj_cardview"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10.0dip"
+                    android:layout_margin="@dimen/_6sdp"
                     android:foreground="?selectableItemBackgroundBorderless"
-                    android:layout_marginStart="13.0dip"
-                    app:cardCornerRadius="10.0dip">
+                    android:layout_marginStart="@dimen/_13sdp"
+                    app:cardCornerRadius="@dimen/_10sdp">
 
                     <LinearLayout
                         android:gravity="center"
                         android:orientation="vertical"
-                        android:paddingTop="17.0dip"
-                        android:paddingBottom="17.0dip"
+                        android:paddingTop="@dimen/_14sdp"
+                        android:paddingBottom="@dimen/_14sdp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:paddingStart="28.0dip"
-                        android:paddingEnd="28.0dip">
+                        android:paddingStart="@dimen/_22sdp"
+                        android:paddingEnd="@dimen/_22sdp">
 
                         <ImageView
-                            android:layout_width="66.0dip"
-                            android:layout_height="66.0dip"
+                            android:layout_width="@dimen/_42sdp"
+                            android:layout_height="@dimen/_42sdp"
                             android:src="@drawable/leaf" />
 
                         <TextView
-                            android:textSize="15.0sp"
+                            android:textSize="@dimen/_11sdp"
                             android:textColor="@color/black"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10.0dip"
+                            android:layout_marginTop="@dimen/_10sdp"
                             android:text="पिकांची गरज" />
 
                         <LinearLayout
@@ -458,7 +443,7 @@
                             android:layout_height="wrap_content">
 
                             <TextView
-                                android:textSize="15.0sp"
+                                android:textSize="@dimen/_11sdp"
                                 android:textColor="@color/black"
                                 android:id="@+id/pikanchi_garaj"
                                 android:layout_width="wrap_content"
@@ -466,7 +451,7 @@
                                 android:text="३१४.२" />
 
                             <TextView
-                                android:textSize="15.0sp"
+                                android:textSize="@dimen/_11sdp"
                                 android:textColor="@color/black"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
