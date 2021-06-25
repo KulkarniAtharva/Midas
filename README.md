@@ -9,11 +9,11 @@ A digital water board that enables the Gram Panchayat to take effective decision
 - Showcasing the probable impact of the advisories on the ground water through simulations
 
 
-# 📸 Screenshots
+## 📸 Screenshots
 
 
 
-# My Task
+## My Task
 
 - Developed a water governance Android app from scratch in the Startup team.
 - Backend in Firebase Cloud Firestore & Firebase Auth with animations used in app.
@@ -27,4 +27,4 @@ A digital water board that enables the Gram Panchayat to take effective decision
 
 <BR>
   
-# Built With 🛠
+## Built With 🛠
