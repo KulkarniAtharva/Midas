@@ -28,3 +28,8 @@ A digital water board that enables the Gram Panchayat to take effective decision
 <BR>
   
 ## Built With 🛠
+
+  
+  - Android - JAVA
+  - Databinding
+  - Firebase Auth & Firebase Firestore
