@@ -9,6 +9,9 @@ A digital water board that enables the Gram Panchayat to take effective decision
 - Showcasing the probable impact of the advisories on the ground water through simulations
 
 
+<BR><BR>
+
+
 
 ## My Task
 
@@ -22,7 +25,7 @@ A digital water board that enables the Gram Panchayat to take effective decision
 -	Used & Co-ordinated all the Git & GitHub Actions used for Version Control for all the code of the team
 -	Leaded a team of Android developers in the team.
 
-<BR>
+<BR><BR>
   
 ## Built With 🛠
 
