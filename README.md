@@ -33,3 +33,42 @@ A digital water board that enables the Gram Panchayat to take effective decision
   - Android - JAVA
   - Databinding
   - Firebase Auth & Firebase Firestore
+  
+  
+## 📸 Screenshots
+
+<table>
+  <tr>
+    <th>Adress</th>
+    <th>Cart</th>
+    <th>Home</th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/KulkarniAtharva/Midas/blob/master/screenshots/s1.jpg?raw=true" width="250px"></td>
+    <td><img src="https://github.com/KulkarniAtharva/Midas/blob/master/screenshots/s2.jpg?raw=true" width="250px"></td>
+    <td><img src="https://github.com/KulkarniAtharva/Midas/blob/master/screenshots/s3.jpg?raw=true" width="250px"></td>
+  </tr>
+ 
+ <tr>
+    <th>Navigation Drawer</th>
+    <th>Order Summary</th>
+    <th>Payment</th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/KulkarniAtharva/Midas/blob/master/screenshots/s4.jpg?raw=true" width="250px"></td>
+    <td><img src="https://github.com/KulkarniAtharva/Midas/blob/master/screenshots/s5.jpg?raw=true" width="250px"></td>
+    <td><img src="https://github.com/KulkarniAtharva/Midas/blob/master/screenshots/s6.jpg?raw=true" width="250px"></td>
+  </tr>
+  
+  <tr>
+    <th>Payment 2</th>
+    <th>Sign In</th>
+    <th>Sign Up</th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/KulkarniAtharva/Midas/blob/master/screenshots/s7.jpg?raw=true" width="250px"></td>
+    <td><img src="https://github.com/KulkarniAtharva/Midas/blob/master/screenshots/s8.jpg?raw=true" width="250px"></td>
+    <td><img src="https://github.com/KulkarniAtharva/Midas/blob/master/screenshots/s9.jpg?raw=true" width="250px"></td>
+  </tr>
+</table>  
+  
