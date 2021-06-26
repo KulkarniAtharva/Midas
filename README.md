@@ -9,9 +9,6 @@ A digital water board that enables the Gram Panchayat to take effective decision
 - Showcasing the probable impact of the advisories on the ground water through simulations
 
 
-## 📸 Screenshots
-
-
 
 ## My Task
 
