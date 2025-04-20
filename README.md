@@ -8,6 +8,8 @@ A digital water board that enables the Gram Panchayat to take effective decision
 - Providing advisories to optimize demand as per the water availability.
 - Showcasing the probable impact of the advisories on the ground water through simulations
 
+- A mobile app for the village community that showcases their water budget on a monthly basis. Through this mobile platform we are creating a paradigm shift from tabular water accounting to one which is more interactive with simulations and scenarios thus enabling behavioural change in the village community.
+
 <BR>
 Developed from scratch by Atharva Kulkarni
 <BR><BR>
