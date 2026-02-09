@@ -14,6 +14,7 @@ A digital water board that enables the Gram Panchayat to take effective decision
 
 [![Get it on Google Play](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=your.app.id)
 
+[![Download on Play Store](https://img.shields.io/badge/Download-Play%20Store-green?logo=google-play)](https://play.google.com/store/apps/details?id=your.app.id)
 
   
   Website of the team developed by me - https://ekatvaminnovations.com
