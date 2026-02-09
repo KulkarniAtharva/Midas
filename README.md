@@ -13,7 +13,8 @@ A digital water board that enables the Gram Panchayat to take effective decision
   Android App developed by me & published on Google Play Store    -  [![Download on Play Store](https://img.shields.io/badge/Download-Play%20Store-green?logo=google-play)]([https://play.google.com/store/apps/details?id=your.app.id](https://play.google.com/store/apps/details?id=com.ekatvamInnovations.midas))
 
   
-  Website of the team developed by me - https://ekatvaminnovations.com
+  Website of the team developed by me - [![Visit Website](https://img.shields.io/badge/Visit-Website-blue?style=for-the-badge&logo=google-chrome)](https://ekatvaminnovations.com)
+
 
 <BR>
 Developed from scratch by Atharva Kulkarni
