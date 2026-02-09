@@ -1,7 +1,7 @@
 # Midas
 
 
-A digital water board that enables the Gram Panchayat to take effective decision on water management for the village.
+A digital water board that enables the Gram Panchayat to take effective decision on water management for the village.iio
 
 
 - Showcasing the status of water availability and demand of the village.
