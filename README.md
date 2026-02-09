@@ -53,6 +53,28 @@ Developed from scratch by Atharva Kulkarni
     <th>Home</th>
   </tr>
   <tr>
+    <td><img src="https://github.com/KulkarniAtharva/Midas/blob/master/screenshots/1.webp" width="250px"></td>
+    <td><img src="https://github.com/KulkarniAtharva/Midas/blob/master/screenshots/s2.jpg?raw=true" width="250px"></td>
+    <td><img src="https://github.com/KulkarniAtharva/Midas/blob/master/screenshots/s3.jpg?raw=true" width="250px"></td>
+  </tr>
+
+  <tr>
+    <th>Adress</th>
+    <th>Cart</th>
+    <th>Home</th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/KulkarniAtharva/Midas/blob/master/screenshots/s1.jpg?raw=true" width="250px"></td>
+    <td><img src="https://github.com/KulkarniAtharva/Midas/blob/master/screenshots/s2.jpg?raw=true" width="250px"></td>
+    <td><img src="https://github.com/KulkarniAtharva/Midas/blob/master/screenshots/s3.jpg?raw=true" width="250px"></td>
+  </tr>
+  
+  <tr>
+    <th>Adress</th>
+    <th>Cart</th>
+    <th>Home</th>
+  </tr>
+  <tr>
     <td><img src="https://github.com/KulkarniAtharva/Midas/blob/master/screenshots/s1.jpg?raw=true" width="250px"></td>
     <td><img src="https://github.com/KulkarniAtharva/Midas/blob/master/screenshots/s2.jpg?raw=true" width="250px"></td>
     <td><img src="https://github.com/KulkarniAtharva/Midas/blob/master/screenshots/s3.jpg?raw=true" width="250px"></td>
