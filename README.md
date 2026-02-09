@@ -10,7 +10,7 @@ A digital water board that enables the Gram Panchayat to take effective decision
 
 - A mobile app for the village community that showcases their water budget on a monthly basis. Through this mobile platform we are creating a paradigm shift from tabular water accounting to one which is more interactive with simulations and scenarios thus enabling behavioural change in the village community.
 
-  Android App developed by me & published on Google Play Store -  [![Download on Play Store](https://img.shields.io/badge/Download-Play%20Store-green?logo=google-play)]([https://play.google.com/store/apps/details?id=your.app.id](https://play.google.com/store/apps/details?id=com.ekatvamInnovations.midas))
+  Android App developed by me & published on Google Play Store    -  [![Download on Play Store](https://img.shields.io/badge/Download-Play%20Store-green?logo=google-play)]([https://play.google.com/store/apps/details?id=your.app.id](https://play.google.com/store/apps/details?id=com.ekatvamInnovations.midas))
 
   
   Website of the team developed by me - https://ekatvaminnovations.com
