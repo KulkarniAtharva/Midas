@@ -38,18 +38,23 @@ Developed from scratch by Atharva Kulkarni
 
 
 - Developed Android application using Java, Firebase (Auth & Cloud Firestore) & Retrofit, user authentication,
-  API integration & local data storage; deployed production builds to Google Play Store.
-  
+  API integration & local data storage; deployed production builds to Google Play Store. 
+  <BR><BR>
 – Integrated RESTful APIs to fetch & display dynamic data, handling 100+ API responses per session with robust
   error handling & optimized background tasks.
+  <BR><BR>
 – Improved app stability & performance by optimizing UI rendering & asynchronous operations, reducing crashes &
   ANRs
+  <BR><BR>
 – Tested applications across multiple Android versions & device configurations, validating functionality through 40+
   test cases.
+  <BR><BR>
 – Designed & developed full-stack web applications(dashboard) using MERN stack (MongoDB, Express, React,
   Node.js), implementing authentication & secure APIs; ensuring responsive UI across devices
+  <BR><BR>
 – Led a team of Android developers & coordinated Git/GitHub workflows & CI/CD pipelines, ensuring smooth
   version control & collaboration.
+  <BR><BR>
 – Configured MySQL database and written SQL queries
 
 
