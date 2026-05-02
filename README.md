@@ -60,6 +60,23 @@ Developed from scratch by Atharva Kulkarni
 
 
 
+ Designed & developed a water budgeting platform enabling conjunctive use of surface & groundwater for farmers
+– Led problem identification, research & prototyping to build a technology-driven solution for real-world water
+management challenges
+– Headed a 4–6 member team, defining system architecture, task allocation & driving end-to-end execution from
+ideation to deployment.
+– Collaborated with TCS mentors & evaluators, incorporating feedback across multiple iterations to deliver a fully
+functional prototype within a 6–8 week timeline.
+– Designed system workflows & implemented key features, contributing to 100% on-time delivery of a working
+prototype.
+– Conducted code reviews & debugging sessions, improving code quality and reducing integration issues during final
+evaluation.
+– Presented the solution to TCS mentors & program reviewers, successfully clearing technical reviews & demos
+
+
+
+
+
 
 <BR><BR>
   
