@@ -39,6 +39,7 @@ Developed from scratch by Atharva Kulkarni
 
 - Developed Android application using Java, Firebase (Auth & Cloud Firestore) & Retrofit, user authentication,
   API integration & local data storage; deployed production builds to Google Play Store.
+  
 – Integrated RESTful APIs to fetch & display dynamic data, handling 100+ API responses per session with robust
   error handling & optimized background tasks.
 – Improved app stability & performance by optimizing UI rendering & asynchronous operations, reducing crashes &
