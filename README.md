@@ -34,6 +34,27 @@ Developed from scratch by Atharva Kulkarni
 -	Used & Co-ordinated all the Git & GitHub Actions used for Version Control for all the code of the team
 -	Leaded a team of Android developers in the team.
 
+
+
+
+- Developed Android application using Java, Firebase (Auth & Cloud Firestore) & Retrofit, user authentication,
+  API integration & local data storage; deployed production builds to Google Play Store.
+– Integrated RESTful APIs to fetch & display dynamic data, handling 100+ API responses per session with robust
+  error handling & optimized background tasks.
+– Improved app stability & performance by optimizing UI rendering & asynchronous operations, reducing crashes &
+  ANRs
+– Tested applications across multiple Android versions & device configurations, validating functionality through 40+
+  test cases.
+– Designed & developed full-stack web applications(dashboard) using MERN stack (MongoDB, Express, React,
+  Node.js), implementing authentication & secure APIs; ensuring responsive UI across devices
+– Led a team of Android developers & coordinated Git/GitHub workflows & CI/CD pipelines, ensuring smooth
+  version control & collaboration.
+– Configured MySQL database and written SQL queries
+
+
+
+
+
 <BR><BR>
   
 ## Built With 🛠
