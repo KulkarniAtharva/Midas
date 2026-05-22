@@ -22,7 +22,7 @@ Developed from scratch by Atharva Kulkarni
 
 
 
-## My Task as Android Developer  <img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/e8dd7e89-b229-4b74-ae6e-50fa46ea9ff7" />
+## My Task as Android Developer  <img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/e8dd7e89-b229-4b74-ae6e-50fa46ea9ff7" />
 
 
 
