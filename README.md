@@ -80,7 +80,17 @@ evaluation.
 
 
 
-
+Android Development Points
+Developed a production-grade Android application from scratch for digital water governance and village water budgeting systems.
+Built scalable Android applications using Java, Firebase Authentication, Cloud Firestore, Retrofit, and MVVM architecture.
+Implemented secure user authentication, real-time data synchronization, local caching, and offline-first workflows for low-connectivity rural environments.
+Integrated RESTful APIs using Retrofit and optimized asynchronous background operations for efficient network communication and improved responsiveness.
+Designed modular and maintainable Android architecture using DataBinding, Repository Pattern, and lifecycle-aware components.
+Improved application performance and stability by optimizing UI rendering, asynchronous tasks, and memory usage, reducing crashes and ANRs.
+Developed dynamic dashboards, analytics views, and simulation-based interfaces for monitoring village-level water availability and demand.
+Tested and validated application functionality across multiple Android devices and versions using 40+ real-world test scenarios.
+Implemented animations, responsive UI components, and smooth navigation flows to enhance user experience and accessibility.
+Published and maintained production Android builds on Google Play Store with continuous feature updates and bug fixes.
 
 
 <BR><BR>
