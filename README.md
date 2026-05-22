@@ -4,7 +4,7 @@
 A digital water board that enables the Gram Panchayat to take effective decision on water management for the village.
 
 
-- Showcasing the status of water availability and demand of the village.
+- Showcasing the status of water availability & demand of the village.
 - Providing advisories to optimize demand as per the water availability.
 - Showcasing the probable impact of the advisories on the ground water through simulations
 
@@ -22,14 +22,33 @@ Developed from scratch by Atharva Kulkarni
 
 
 
-## My Task
+## My Task as Android Developer
 
-- Developed a water governance Android app from scratch in the Startup team.
-- Backend in Firebase Cloud Firestore & Firebase Auth with animations used in app.
+- Developed a production-grade Android application from scratch for digital water governance and village water budgeting systems.
+- Built scalable Android applications using Java, Firebase Authentication, Cloud Firestore, Retrofit, and MVVM architecture.
+- Implemented secure user authentication, real-time data synchronization, local caching, and offline-first workflows for low-connectivity rural environments.
+- Integrated RESTful APIs using Retrofit and optimized asynchronous background operations for efficient network communication and improved responsiveness.
 - Used Retrofit as a REST Client to retrieve JSON via a REST based webservice; used Databinding.
--	Developing a Web App Dashboard from scratch using ReactJS, ExpressJS & NodeJS
--	Developed the MySQL database 
--	Created wireframes & UI design of the Android App & Web Dashboard using Adobe XD
+- Designed modular and maintainable Android architecture using DataBinding, Repository Pattern, and lifecycle-aware components.
+- Improved application performance and stability by optimizing UI rendering, asynchronous tasks, and memory usage, reducing crashes and ANRs.
+- Developed dynamic dashboards, analytics views, and simulation-based interfaces for monitoring village-level water availability and demand.
+- Tested and validated application functionality across multiple Android devices and versions using 40+ real-world test scenarios.
+- Implemented animations, responsive UI components, and smooth navigation flows to enhance user experience and accessibility.
+- Published and maintained production Android builds on Google Play Store with continuous feature updates and bug fixes.
+
+
+## My Task as Full-Stack Developer
+
+- Designed and developed full-stack web dashboards using MERN stack (MongoDB, Express.js, React.js, Node.js) for real-time monitoring and analytics.
+- Built responsive web interfaces with secure authentication, role-based access, and API-driven data visualization.
+- Developed scalable REST APIs and integrated frontend-backend communication for dynamic data synchronization.
+- Implemented backend services and API workflows for real-time water budgeting, reporting, and simulation systems.
+- Designed reusable React components and optimized frontend rendering for improved dashboard responsiveness and maintainability.
+- Configured MySQL databases and developed optimized SQL queries for structured data management and reporting workflows.
+- Developed internal admin dashboards and management portals to support monitoring and operational decision-making.
+- Worked on backend integration, API validation, error handling, and secure data exchange between mobile and web applications.
+  
+
 -	Developed an official website of the Team, from scratch; using HTML, CSS, Bootstrap & JavaScript.   link
 -	Used & Co-ordinated all the Git & GitHub Actions used for Version Control for all the code of the team
 -	Leaded a team of Android developers in the team.
@@ -37,25 +56,17 @@ Developed from scratch by Atharva Kulkarni
 
 
 
-- Developed Android application using Java, Firebase (Auth & Cloud Firestore) & Retrofit, user authentication,
-  API integration & local data storage; deployed production builds to Google Play Store. 
-  <BR><BR>
+
 – Integrated RESTful APIs to fetch & display dynamic data, handling 100+ API responses per session with robust
   error handling & optimized background tasks.
   <BR><BR>
 – Improved app stability & performance by optimizing UI rendering & asynchronous operations, reducing crashes &
   ANRs
-  <BR><BR>
-– Tested applications across multiple Android versions & device configurations, validating functionality through 40+
-  test cases.
-  <BR><BR>
-– Designed & developed full-stack web applications(dashboard) using MERN stack (MongoDB, Express, React,
-  Node.js), implementing authentication & secure APIs; ensuring responsive UI across devices
-  <BR><BR>
+  <BR>
+
 – Led a team of Android developers & coordinated Git/GitHub workflows & CI/CD pipelines, ensuring smooth
   version control & collaboration.
-  <BR><BR>
-– Configured MySQL database and written SQL queries
+  <BR>
 
 
 
@@ -77,21 +88,6 @@ prototype.
 evaluation.
 <BR><BR>
 – Presented the solution to TCS mentors & program reviewers, successfully clearing technical reviews & demos
-
-
-
-Android Development Points
-Developed a production-grade Android application from scratch for digital water governance and village water budgeting systems.
-Built scalable Android applications using Java, Firebase Authentication, Cloud Firestore, Retrofit, and MVVM architecture.
-Implemented secure user authentication, real-time data synchronization, local caching, and offline-first workflows for low-connectivity rural environments.
-Integrated RESTful APIs using Retrofit and optimized asynchronous background operations for efficient network communication and improved responsiveness.
-Designed modular and maintainable Android architecture using DataBinding, Repository Pattern, and lifecycle-aware components.
-Improved application performance and stability by optimizing UI rendering, asynchronous tasks, and memory usage, reducing crashes and ANRs.
-Developed dynamic dashboards, analytics views, and simulation-based interfaces for monitoring village-level water availability and demand.
-Tested and validated application functionality across multiple Android devices and versions using 40+ real-world test scenarios.
-Implemented animations, responsive UI components, and smooth navigation flows to enhance user experience and accessibility.
-Published and maintained production Android builds on Google Play Store with continuous feature updates and bug fixes.
-
 
 <BR><BR>
   
