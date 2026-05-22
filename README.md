@@ -38,7 +38,7 @@ Developed from scratch by Atharva Kulkarni
 - Implemented animations, responsive UI components & smooth navigation flows to enhance user experience & accessibility.
 - Published & maintained production Android builds on Google Play Store with continuous feature updates & bug fixes.
 
-Designed, developed, and deployed a production-grade Android application on the Google Play Store.-  [![Download on Play Store](https://img.shields.io/badge/Download-Play%20Store-green?logo=google-play)]([https://play.google.com/store/apps/details?id=your.app.id](https://play.google.com/store/apps/details?id=com.ekatvamInnovations.midas))
+Designed, developed & deployed a production-grade Android application on the Google Play Store.-  [![Download on Play Store](https://img.shields.io/badge/Download-Play%20Store-green?logo=google-play)]([https://play.google.com/store/apps/details?id=your.app.id](https://play.google.com/store/apps/details?id=com.ekatvamInnovations.midas))
 
 
 ## My Task as Full-Stack Developer  🌐
