@@ -13,7 +13,7 @@ A digital water board that enables the Gram Panchayat to take effective decision
 
 
   
-  Website of the team developed by me - [![Visit Website](https://img.shields.io/badge/Visit-Website-blue?style=for-the-badge&logo=google-chrome)](https://ekatvaminnovations.com)
+  Website of the team developed by me - [![Visit Website](https://img.shields.io/badge/Visit-Website-blue?style=for-the-badge&logo=google-chrome)](https://iccw.world/ekatvam-innovation)
 
 
 <BR>
