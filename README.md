@@ -93,6 +93,18 @@ evaluation.
 <BR><BR>
 – Presented the solution to TCS mentors & program reviewers, successfully clearing technical reviews & demos
 
+
+users can create Plans/Scenarios for each village based on the data
+
+Salient Features:
+- Users can create multiple plans for the same village
+- User can create plans from selecting either "Supply/Demand" or "Crop Diversification" scenarios.
+- The user can "Compare" all the saved plans and choose the Best Plan for the village.
+- "Advisories" are generated based on the finalized plan and can be shared with other users and the community.
+- Recommendations for each village are also provided to help the user to make Plans/scenarios.
+
+- 
+
 <BR><BR>
   
 ## Built With 🛠
